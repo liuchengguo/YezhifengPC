@@ -84,10 +84,12 @@ img {
   @include clearfix();
   height: 42px;
   background-color: #181a1e;
+  overflow: hidden;
   .top-left {
     float: left;
     font-size: 14px;
     font-family: $song;
+    height: 42px;
     line-height: 42px;
     i {
       font-size: inherit;
@@ -318,6 +320,9 @@ img {
   height: 405px;
   background: url(../images/side-calculator.jpg) 0 0 no-repeat;
   @include background-size(cover);
+  &:first-child{
+    margin-top: 0;
+  }
   dl {
     padding: 25px 0 20px;
     text-align: center;
@@ -2172,7 +2177,9 @@ nav {
   }
 }
 
-
+.hot-list-banner{
+  height: 471px;
+}
 
 
 
