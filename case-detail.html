@@ -9,7 +9,7 @@
     <meta content="我是网页关键字" name="keywords"/>
     <meta content="我是网页描述" name="description"/>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="http://at.alicdn.com/t/font_495875_ahtvcywaod48ia4i.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_495875_dtht1d7544mquxr.css">
     <link rel="stylesheet" href="css/main.css"/>
     <script src="js/jquery.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
@@ -75,7 +75,20 @@
         <div class="right-control">
             <ul class="right-dropdown">
                 <li>保存至手机 <i class="iconfont icon-phone"></i></li>
-                <li>分享 <i class="iconfont icon-fenxiang"></i></li>
+                <li class="right-share">分享 <i class="iconfont icon-fenxiang"></i>
+                    <div class="drop-share">
+                        <!-- JiaThis Button BEGIN -->
+                        <div class="jiathis_style_24x24">
+                            <a class="jiathis_button_weixin"><i class="iconfont icon-weixin"></i></a>
+                            <a class="jiathis_button_tsina"><i class="iconfont icon-weibo"></i></a>
+                            <a class="jiathis_button_cqq"><i class="iconfont icon-QQ"></i></a>
+                            <a class="jiathis_button_tieba"><i class="iconfont icon-baidu1"></i></a>
+                            <!--<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>-->
+                        </div>
+                        <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+                        <!-- JiaThis Button END -->
+                    </div>
+                </li>
             </ul>
         </div>
     </div>
@@ -86,10 +99,18 @@
             <div class="floor-header">户型图</div>
             <div class="floor-body">
                 <ul>
-                    <li><a href="images/detail-img.jpg" data-lightbox="roadtrip"><img src="images/floor-img.jpg" alt=""></a></li>
-                    <li><a href="images/case-banner.jpg" data-lightbox="roadtrip"><img src="images/floor-img.jpg" alt=""></a></li>
-                    <li><a href="images/detail-img.jpg" data-lightbox="roadtrip"><img src="images/floor-img.jpg" alt=""></a></li>
-                    <li><a href="images/case-detail-main.jpg" data-lightbox="roadtrip"><img src="images/floor-img.jpg" alt=""></a></li>
+                    <li><a href="images/detail-img.jpg" data-lightbox="roadtrip"><img src="images/floor-img.jpg" alt=""></a>
+                    </li>
+                    <li><a href="images/case-banner.jpg" data-lightbox="roadtrip"><img src="images/floor-img.jpg"
+                                                                                       alt=""></a></li>
+                    <li><a href="images/detail-img.jpg" data-lightbox="roadtrip"><img src="images/floor-img.jpg" alt=""></a>
+                    </li>
+                    <li><a href="images/case-detail-main.jpg" data-lightbox="roadtrip"><img src="images/floor-img.jpg"
+                                                                                            alt=""></a></li>
+                    <li><a href="images/case-detail-main.jpg" data-lightbox="roadtrip"><img src="images/floor-img.jpg"
+                                                                                            alt=""></a></li>
+                    <li><a href="images/case-detail-main.jpg" data-lightbox="roadtrip"><img src="images/floor-img.jpg"
+                                                                                            alt=""></a></li>
                 </ul>
             </div>
             <div class="floor-footer">
@@ -99,14 +120,16 @@
         </div>
         <div id="gallery" class="ad-gallery">
             <div class="ad-image-wrapper"></div>
-            <div class="ad-disc">
+            <div class="ad-disc open">
                 <dl class="ad-dl">
                     <div class="ad-disc-control">
                         <i class="iconfont icon-jiantou-shang-copy"></i>
                         <i class="iconfont icon-jiantou-xia-copy"></i>
                     </div>
                     <dt>本案例设计说明</dt>
-                    <dd>美式古典风格植根于欧洲文化，并不过分强调繁复的雕刻，以舒适和多功能为主，但同时也不失怀旧、浪漫的感觉。下面这套住宅采用纯正的美式古典风格，设计师考虑到底楼普遍存在采光不足的问题，尽量多地采用玻璃门以及合理利用飘窗，避免了美式古典风格色彩过于暗淡的情况发生。客厅天花板采用嵌入式石膏吊顶，搭配精致的水晶吊顶计师考虑到底楼普遍存在采光不足的问题，尽量多地采用玻璃门以及合理利。</dd>
+                    <dd>
+                        美式古典风格植根于欧洲文化，并不过分强调繁复的雕刻，以舒适和多功能为主，但同时也不失怀旧、浪漫的感觉。下面这套住宅采用纯正的美式古典风格，设计师考虑到底楼普遍存在采光不足的问题，尽量多地采用玻璃门以及合理利用飘窗，避免了美式古典风格色彩过于暗淡的情况发生。客厅天花板采用嵌入式石膏吊顶，搭配精致的水晶吊顶计师考虑到底楼普遍存在采光不足的问题，尽量多地采用玻璃门以及合理利。
+                    </dd>
                 </dl>
             </div>
             <div class="ad-bottom">
@@ -119,86 +142,87 @@
                         <ul class="ad-thumb-list">
                             <li>
                                 <a href="http://www.jq22.com/demo/jquerygallery-150309220020/images/1.jpg">
-                                    <img src="http://www.jq22.com/demo/jquerygallery-150309220020/images/thumbs/t1.jpg" class="image0">
+                                    <img src="http://www.jq22.com/demo/jquerygallery-150309220020/images/thumbs/t1.jpg"
+                                         class="image0">
                                     <span>卧室</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="http://www.jq22.com/demo/jquerygallery-150309220020/images/10.jpg">
-                                    <img src="http://www.jq22.com/demo/jquerygallery-150309220020/images/thumbs/t10.jpg" title="A title for 10.jpg">
+                                    <img src="http://www.jq22.com/demo/jquerygallery-150309220020/images/thumbs/t10.jpg">
                                     <span>玄关</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="http://www.jq22.com/demo/jquerygallery-150309220020/images/11.jpg">
-                                    <img src="http://www.jq22.com/demo/jquerygallery-150309220020/images/thumbs/t11.jpg" title="A title for 11.jpg">
+                                    <img src="http://www.jq22.com/demo/jquerygallery-150309220020/images/thumbs/t11.jpg">
                                     <span>走廊</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="http://www.jq22.com/demo/jquerygallery-150309220020/images/12.jpg">
-                                    <img src="http://www.jq22.com/demo/jquerygallery-150309220020/images/thumbs/t12.jpg" title="A title for 12.jpg">
+                                    <img src="http://www.jq22.com/demo/jquerygallery-150309220020/images/thumbs/t12.jpg">
                                     <span>厨房</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="http://www.jq22.com/demo/jquerygallery-150309220020/images/13.jpg">
-                                    <img src="http://www.jq22.com/demo/jquerygallery-150309220020/images/thumbs/t13.jpg" title="A title for 13.jpg">
+                                    <img src="http://www.jq22.com/demo/jquerygallery-150309220020/images/thumbs/t13.jpg">
                                     <span>卧室</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="http://www.jq22.com/demo/jquerygallery-150309220020/images/14.jpg">
-                                    <img src="http://www.jq22.com/demo/jquerygallery-150309220020/images/thumbs/t14.jpg" title="A title for 14.jpg">
+                                    <img src="http://www.jq22.com/demo/jquerygallery-150309220020/images/thumbs/t14.jpg">
                                     <span>卧室</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="http://www.jq22.com/demo/jquerygallery-150309220020/images/2.jpg">
-                                    <img src="http://www.jq22.com/demo/jquerygallery-150309220020/images/thumbs/t2.jpg" title="A title for 2.jpg">
+                                    <img src="http://www.jq22.com/demo/jquerygallery-150309220020/images/thumbs/t2.jpg">
                                     <span>卧室</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="http://www.jq22.com/demo/jquerygallery-150309220020/images/3.jpg">
 
-                                    <img src="http://www.jq22.com/demo/jquerygallery-150309220020/images/thumbs/t3.jpg" title="A title for 3.jpg">
+                                    <img src="http://www.jq22.com/demo/jquerygallery-150309220020/images/thumbs/t3.jpg">
                                     <span>卧室</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="http://www.jq22.com/demo/jquerygallery-150309220020/images/4.jpg">
-                                    <img src="http://www.jq22.com/demo/jquerygallery-150309220020/images/thumbs/t4.jpg" title="A title for 4.jpg">
+                                    <img src="http://www.jq22.com/demo/jquerygallery-150309220020/images/thumbs/t4.jpg">
                                     <span>卧室</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="http://www.jq22.com/demo/jquerygallery-150309220020/images/5.jpg">
-                                    <img src="http://www.jq22.com/demo/jquerygallery-150309220020/images/thumbs/t5.jpg" title="A title for 5.jpg">
+                                    <img src="http://www.jq22.com/demo/jquerygallery-150309220020/images/thumbs/t5.jpg">
                                     <span>卧室</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="http://www.jq22.com/demo/jquerygallery-150309220020/images/6.jpg">
-                                    <img src="http://www.jq22.com/demo/jquerygallery-150309220020/images/thumbs/t6.jpg" title="A title for 6.jpg">
+                                    <img src="http://www.jq22.com/demo/jquerygallery-150309220020/images/thumbs/t6.jpg">
                                     <span>卧室</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="http://www.jq22.com/demo/jquerygallery-150309220020/images/7.jpg">
-                                    <img src="http://www.jq22.com/demo/jquerygallery-150309220020/images/thumbs/t7.jpg" title="A title for 7.jpg">
+                                    <img src="http://www.jq22.com/demo/jquerygallery-150309220020/images/thumbs/t7.jpg">
                                     <span>卧室</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="http://www.jq22.com/demo/jquerygallery-150309220020/images/8.jpg">
-                                    <img src="http://www.jq22.com/demo/jquerygallery-150309220020/images/thumbs/t8.jpg" title="A title for 8.jpg">
+                                    <img src="http://www.jq22.com/demo/jquerygallery-150309220020/images/thumbs/t8.jpg">
                                     <span>卧室</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="http://www.jq22.com/demo/jquerygallery-150309220020/images/9.jpg">
-                                    <img src="http://www.jq22.com/demo/jquerygallery-150309220020/images/thumbs/t9.jpg" title="A title for 9.jpg">
+                                    <img src="http://www.jq22.com/demo/jquerygallery-150309220020/images/thumbs/t9.jpg">
                                     <span>卧室</span>
                                 </a>
                             </li>
@@ -292,7 +316,7 @@
                             <input type="text" class="form-control" placeholder="报价结果将发送到您的手机上">
                         </div>
                     </div>
-                    <div class="case-id-wrap"> <i class="iconfont icon-mubiaodingwei"></i>当前案例编号：12345678</div>
+                    <div class="case-id-wrap"><i class="iconfont icon-mubiaodingwei"></i>当前案例编号：12345678</div>
                     <div class="form-group btn-box">
                         <div class="col-xs-12">
                             <button class="btn btn-block">发送至手机</button>
@@ -303,13 +327,14 @@
             <div class="side-panel">
                 <div class="side-panel-header">
                     <a href="###" class="more">更多》</a>
-                    装修常识</div>
+                    装修常识
+                </div>
                 <div class="side-panel-body">
                     <ul class="sense-list">
-                        <li><a href="###" title="家里安装了地暖用什么面层材料好？">·  家里安装了地暖用什么面层材料好？</a></li>
-                        <li><a href="###" title="花洒明装和暗装的区别都有什么？">·  花洒明装和暗装的区别都有什么？</a></li>
-                        <li><a href="###" title="底漆和面漆有什么区别？">·  底漆和面漆有什么区别？</a></li>
-                        <li><a href="###" title="家里安装了地暖用什么面层材料好？">·  家里安装了地暖用什么面层材料好？</a></li>
+                        <li><a href="###" title="家里安装了地暖用什么面层材料好？">· 家里安装了地暖用什么面层材料好？</a></li>
+                        <li><a href="###" title="花洒明装和暗装的区别都有什么？">· 花洒明装和暗装的区别都有什么？</a></li>
+                        <li><a href="###" title="底漆和面漆有什么区别？">· 底漆和面漆有什么区别？</a></li>
+                        <li><a href="###" title="家里安装了地暖用什么面层材料好？">· 家里安装了地暖用什么面层材料好？</a></li>
                     </ul>
                 </div>
             </div>
@@ -372,18 +397,25 @@
         $(window).resize(function () {
             setCaseWrap()
         });
+
         function setCaseWrap() {
             var windowHeight = $(window).height();
             $caseDetailWrap.height(windowHeight - 158);
             $('#inner-content-div').slimScroll({
-                height: windowHeight - 158 ,
+                height: windowHeight - 158,
                 railVisible: true,
                 alwaysVisible: true
             });
         }
+
+        $('.floor-body ul').slimScroll({
+            height: 332,
+            railVisible: true,
+            alwaysVisible: true
+        });
         $('.ad-gallery').adGallery();
-        $('.floor-footer').click(function () {
-            $(this).toggleClass('open').siblings('.floor-body').stop(true, true).slideToggle();
+        $('.floor-show-wrap').hover(function () {
+            $(this).toggleClass('open');
         })
 
         $('.ad-disc-control').click(function () {

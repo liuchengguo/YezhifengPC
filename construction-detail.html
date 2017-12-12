@@ -9,7 +9,7 @@
     <meta content="我是网页关键字" name="keywords"/>
     <meta content="我是网页描述" name="description"/>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="http://at.alicdn.com/t/font_495875_ahtvcywaod48ia4i.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_495875_dtht1d7544mquxr.css">
     <link rel="stylesheet" href="css/main.css"/>
     <script src="js/jquery.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
@@ -112,7 +112,8 @@
                     <div class="step-panel open">
                         <div class="step-panel-header">
                             <div class="sort-right">
-                                <a class="active" href="###">正序浏览 ↑</a>  | <a href="###">倒序浏览 ↓</a>
+                                <a class="active" href="###">正序浏览<i class="iconfont icon-xia"></i></a>|
+                                <a href="###">倒序浏览 <i class="iconfont icon-shang"></i></a>
                             </div>
                             <strong>前期工程 <i class="iconfont icon-shouqi"></i> <i class="iconfont icon-zhankai"></i></strong>
                         </div>
@@ -419,7 +420,7 @@
     $(function () {
         // 看工地详情
         $('.step-panel-header strong').click(function () {
-            $(this).closest('.step-panel').addClass('open').siblings('.step-panel').removeClass('open');
+            $(this).closest('.step-panel').toggleClass('open');
         })
     })
 </script>
