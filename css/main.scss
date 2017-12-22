@@ -152,6 +152,7 @@ img {
 }
 
 .header {
+  position: relative;
   height: 74px;
   background-color: #22262b;
   .logo {
@@ -171,12 +172,38 @@ img {
         }
       }
       a {
+        position: relative;
         display: block;
         padding: 0 27px;
         font-size: 16px;
         color: #ffffff;
         &:hover {
           color: $color-primary;
+        }
+      }
+      &.has-arrow{
+        &.hover{
+          a{
+            color: $color-primary;
+            &:after{
+              border-top: 0;
+              border-bottom: 5px solid $color-primary;
+            }
+          }
+        }
+        a{
+          &:after{
+            position: absolute;
+            top: 35px;
+            right: 5px;
+            content: '';
+            width: 0;
+            height: 0;
+            border-top: 5px solid #9b9b9b;
+            border-left: 4px solid transparent;
+            border-right: 4px solid transparent;
+            overflow: hidden;
+          }
         }
       }
     }
@@ -900,6 +927,7 @@ nav {
       color: #ffffff;
       font-weight: normal;
       text-align: center;
+      white-space: nowrap;
     }
     td {
       a {
@@ -3090,3 +3118,5 @@ nav {
     }
   }
 }
+
+@import "vision";
