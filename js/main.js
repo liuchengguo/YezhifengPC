@@ -11,4 +11,24 @@ $(function () {
             $fixedBarWrap.stop(true, true).animate({'bottom': '-372px'});
         }
     })
+
+    //下拉效果
+    var $hasArrow = $('.head-nav .has-arrow');
+    var $dropNav = $('.drop-wrap .drop-nav');
+
+    $hasArrow.hover(function () {
+        $(this).addClass('hover').siblings('.has-arrow').removeClass('hover');
+        $dropNav.eq($(this).index()-1).show().siblings('.drop-nav').hide();
+    }, function () {
+        $(this).removeClass('hover');
+        $dropNav.eq($(this).index()-1).hide();
+    })
+    $dropNav.hover(function () {
+        $(this).show();
+        $hasArrow.eq($(this).index()).addClass('hover');
+    }, function () {
+        $(this).hide();
+        $hasArrow.eq($(this).index()).removeClass('hover');
+    })
+
 });
