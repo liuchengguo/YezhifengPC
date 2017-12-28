@@ -3,28 +3,9 @@
   <component name="ChangeListManager">
     <list id="0157f394-b7bd-45dc-88c6-ec99a3b1066b" name="案例列表" comment="" />
     <list default="true" id="8555255e-aa67-4cde-8c7a-16144b1ff19a" name="默认的" comment="优化">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/case-detail.html" afterPath="$PROJECT_DIR$/case-detail.html" />
-      <change beforePath="$PROJECT_DIR$/case-list.html" afterPath="$PROJECT_DIR$/case-list.html" />
-      <change beforePath="$PROJECT_DIR$/construction-detail.html" afterPath="$PROJECT_DIR$/construction-detail.html" />
-      <change beforePath="$PROJECT_DIR$/construction-list.html" afterPath="$PROJECT_DIR$/construction-list.html" />
       <change beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change beforePath="$PROJECT_DIR$/css/main.css.map" afterPath="$PROJECT_DIR$/css/main.css.map" />
       <change beforePath="$PROJECT_DIR$/css/main.scss" afterPath="$PROJECT_DIR$/css/main.scss" />
-      <change beforePath="$PROJECT_DIR$/designer-detail.html" afterPath="$PROJECT_DIR$/designer-detail.html" />
-      <change beforePath="$PROJECT_DIR$/designer-list.html" afterPath="$PROJECT_DIR$/designer-list.html" />
-      <change beforePath="$PROJECT_DIR$/hot-case-a.html" afterPath="$PROJECT_DIR$/hot-case-a.html" />
-      <change beforePath="$PROJECT_DIR$/hot-case-b.html" afterPath="$PROJECT_DIR$/hot-case-b.html" />
-      <change beforePath="$PROJECT_DIR$/hot-case-c.html" afterPath="$PROJECT_DIR$/hot-case-c.html" />
-      <change beforePath="$PROJECT_DIR$/hot-case-d-2.html" afterPath="$PROJECT_DIR$/hot-case-d-2.html" />
-      <change beforePath="$PROJECT_DIR$/hot-case-d.html" afterPath="$PROJECT_DIR$/hot-case-d.html" />
-      <change beforePath="$PROJECT_DIR$/hot-case-list.html" afterPath="$PROJECT_DIR$/hot-case-list.html" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change beforePath="$PROJECT_DIR$/news-detail.html" afterPath="$PROJECT_DIR$/news-detail.html" />
-      <change beforePath="$PROJECT_DIR$/news-list.html" afterPath="$PROJECT_DIR$/news-list.html" />
-      <change beforePath="$PROJECT_DIR$/strategy-detail.html" afterPath="$PROJECT_DIR$/strategy-detail.html" />
-      <change beforePath="$PROJECT_DIR$/strategy-list.html" afterPath="$PROJECT_DIR$/strategy-list.html" />
-      <change beforePath="$PROJECT_DIR$/testimonials-list.html" afterPath="$PROJECT_DIR$/testimonials-list.html" />
     </list>
     <ignored path="墨多科技网站.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,7 +28,7 @@
       <file leaf-file-name="case-detail.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/case-detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="493">
               <caret line="258" column="17" lean-forward="false" selection-start-line="258" selection-start-column="17" selection-end-line="258" selection-end-column="17" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -60,7 +41,7 @@
       <file leaf-file-name="construction-detail.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/construction-detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="1615">
               <caret line="95" column="46" lean-forward="false" selection-start-line="95" selection-start-column="36" selection-end-line="95" selection-end-column="46" />
               <folding />
             </state>
@@ -70,8 +51,8 @@
       <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="55777">
-              <caret line="3281" column="0" lean-forward="true" selection-start-line="3281" selection-start-column="0" selection-end-line="3281" selection-end-column="0" />
+            <state relative-caret-position="259">
+              <caret line="1910" column="21" lean-forward="false" selection-start-line="1910" selection-start-column="21" selection-end-line="1910" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -90,7 +71,7 @@
       <file leaf-file-name="designer-detail.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/designer-detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
+            <state relative-caret-position="2057">
               <caret line="121" column="26" lean-forward="false" selection-start-line="121" selection-start-column="26" selection-end-line="121" selection-end-column="26" />
               <folding />
             </state>
@@ -363,6 +344,7 @@
       <workItem from="1513323105451" duration="1720000" />
       <workItem from="1513576405142" duration="3311000" />
       <workItem from="1514391357129" duration="104000" />
+      <workItem from="1514475483721" duration="561000" />
     </task>
     <task id="LOCAL-00001" summary="案例列表页">
       <created>1512633609981</created>
@@ -438,13 +420,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154960000" />
+    <option name="totallyTimeSpent" value="155521000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1436" height="877" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19081272" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19081272" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -706,7 +687,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -794,7 +774,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/case-detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="493">
           <caret line="258" column="17" lean-forward="false" selection-start-line="258" selection-start-column="17" selection-end-line="258" selection-end-column="17" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -820,7 +800,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/designer-detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="2057">
           <caret line="121" column="26" lean-forward="false" selection-start-line="121" selection-start-column="26" selection-end-line="121" selection-end-column="26" />
           <folding />
         </state>
@@ -830,13 +810,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="0" column="1012" lean-forward="false" selection-start-line="0" selection-start-column="1012" selection-end-line="0" selection-end-column="1012" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/construction-detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="1615">
           <caret line="95" column="46" lean-forward="false" selection-start-line="95" selection-start-column="36" selection-end-line="95" selection-end-column="46" />
           <folding />
         </state>
@@ -844,8 +823,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55777">
-          <caret line="3281" column="0" lean-forward="true" selection-start-line="3281" selection-start-column="0" selection-end-line="3281" selection-end-column="0" />
+        <state relative-caret-position="259">
+          <caret line="1910" column="21" lean-forward="false" selection-start-line="1910" selection-start-column="21" selection-end-line="1910" selection-end-column="21" />
           <folding />
         </state>
       </provider>
