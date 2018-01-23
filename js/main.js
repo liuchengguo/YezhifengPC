@@ -30,5 +30,8 @@ $(function () {
         $(this).hide();
         $hasArrow.eq($(this).index()).removeClass('hover');
     })
-
+    $('.al-tab li').hover(function () {
+        $(this).addClass('active').siblings('li').removeClass('active');
+        $('.al-tab-body').eq($(this).index()).show().siblings().hide();
+    })
 });
